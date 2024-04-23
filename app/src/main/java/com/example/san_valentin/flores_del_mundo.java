@@ -8,7 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Flores_del_mundo extends AppCompatActivity {
+public class flores_del_mundo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
