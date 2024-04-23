@@ -5,6 +5,126 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#686464"
     tools:context=".Asia">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="218dp"
+        android:layout_height="136dp"
+        android:layout_gravity="start|top"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:text="Camelia: Originaria de Asia Oriental, la camelia es conocida por sus flores grandes y vistosas. Viene en una variedad de colores y es popular en jardinería ornamental."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="225dp"
+        android:layout_height="145dp"
+        android:layout_gravity="start|top"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:text="Jazmín: Ampliamente cultivado en Asia, el jazmín es conocido por su fragancia dulce y sus flores blancas o amarillas. Se utiliza en la producción de perfumes y tés aromáticos."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="255dp"
+        android:layout_height="123dp"
+        android:layout_gravity="start|top"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:text="Loto: Una flor sagrada en muchas culturas asiáticas, especialmente en China e India. El loto es un símbolo de pureza espiritual y crecimiento espiritual."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="191dp"
+        android:layout_height="138dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:srcCompat="@mipmap/camelia"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="162dp"
+        android:layout_height="123dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/jazmin"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="146dp"
+        android:layout_height="130dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:srcCompat="@mipmap/loto"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="161dp"
+        android:layout_height="132dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/sakura"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_gravity="start|top"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:text="Cerezo en Flor (Sakura): Esta flor es icónica en Asia, especialmente en Japón. La floración de los cerezos es un evento muy celebrado y simboliza la belleza efímera de la naturaleza."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView1"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
