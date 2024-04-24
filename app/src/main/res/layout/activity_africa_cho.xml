@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chocolate">
+    tools:context=".Africa_cho">
 
     <FrameLayout
         android:id="@+id/frameLayout7"
@@ -42,7 +42,7 @@
 
                 <ImageButton
                     android:id="@+id/imageButton1"
-                    android:layout_width="163dp"
+                    android:layout_width="172dp"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/chocolate"
                     android:onClick="onclik"
@@ -64,7 +64,7 @@
                         android:id="@+id/titleTextView1"
                         android:layout_width="222dp"
                         android:layout_height="126dp"
-                        android:text="Trufas de Chocolate Negro"
+                        android:text="Chocolate Amargo de Ghana"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -73,7 +73,7 @@
                         android:id="@+id/paragraphTextView1"
                         android:layout_width="228dp"
                         android:layout_height="203dp"
-                        android:text="Ingredientes: 200g de chocolate negro (mínimo 70% de cacao), 100ml de crema para batir, 30g de mantequilla sin sal, Cacao en polvo o fideos de chocolate para decorar"
+                        android:text="Ingredientes: Cacao de Ghana (mínimo 70% de cacao), azúcar, y manteca de cacao."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -86,7 +86,7 @@
 
                 <ImageButton
                     android:id="@+id/imageButton2"
-                    android:layout_width="163dp"
+                    android:layout_width="164dp"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/chocolate"
                     android:onClick="onclik"
@@ -105,8 +105,8 @@
                     <TextView
                         android:id="@+id/titleTextView2"
                         android:layout_width="218dp"
-                        android:layout_height="153dp"
-                        android:text="Corazones de Chocolate Blanco Rellenos de Frambuesa"
+                        android:layout_height="78dp"
+                        android:text="Koeksisters de Chocolate"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -116,7 +116,7 @@
                         android:id="@+id/paragraphTextView2"
                         android:layout_width="217dp"
                         android:layout_height="171dp"
-                        android:text="Ingredientes: 200g de chocolate blanco, 50g de puré de frambuesa, 30g de mantequilla sin sal, Colorante rojo (opcional), Moldes de corazón"
+                        android:text="Ingredientes: Masa de koeksister, jarabe de azúcar, chocolate derretido, y coco rallado."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -129,7 +129,7 @@
 
                 <ImageButton
                     android:id="@+id/imageButton3"
-                    android:layout_width="163dp"
+                    android:layout_width="168dp"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/chocolate"
                     android:onClick="onclik"
@@ -148,8 +148,8 @@
                     <TextView
                         android:id="@+id/titleTextView3"
                         android:layout_width="wrap_content"
-                        android:layout_height="118dp"
-                        android:text="Bombones de Chocolate con Avellanas"
+                        android:layout_height="87dp"
+                        android:text="Chocolate con Nibs de Cacao"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -159,9 +159,7 @@
                         android:id="@+id/paragraphTextView3"
                         android:layout_width="227dp"
                         android:layout_height="wrap_content"
-                        android:text="Ingredientes: 200g de chocolate con leche,
-                         50g de avellanas tostadas y trituradas, 30g de mantequilla sin sal,
-                         50ml de crema para batir, Avellanas enteras para decorar"
+                        android:text="Ingredientes: Chocolate con leche de Costa de Marfil, y trozos de nibs de cacao."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -174,7 +172,7 @@
 
                 <ImageButton
                     android:id="@+id/imageButton4"
-                    android:layout_width="163dp"
+                    android:layout_width="166dp"
                     android:layout_height="match_parent"
                     android:contentDescription="@string/chocolate"
                     android:onClick="onclik"
@@ -194,7 +192,7 @@
                         android:id="@+id/titleTextView4"
                         android:layout_width="237dp"
                         android:layout_height="109dp"
-                        android:text="Tableta de Chocolate con Caramelo Salado"
+                        android:text="Halva de Chocolate"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -204,9 +202,7 @@
                         android:id="@+id/paragraphTextView4"
                         android:layout_width="231dp"
                         android:layout_height="175dp"
-                        android:text="Ingredientes: 300g de chocolate semiamargo,
-                         150g de azúcar, 100ml de crema para batir,
-                         50g de mantequilla con sal, Sal marina gruesa"
+                        android:text="Ingredientes: Semillas de sésamo, azúcar, miel, y chocolate derretido."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -232,5 +228,4 @@
             android:layout_height="match_parent"
             android:text="TextView" />
     </FrameLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

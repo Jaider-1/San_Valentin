@@ -13,12 +13,6 @@
         android:theme="@style/Theme.San_Valentin"
         tools:targetApi="31">
         <activity
-            android:name=".Europa"
-            android:exported="false" />
-        <activity
-            android:name=".America"
-            android:exported="false" />
-        <activity
             android:name=".Asia"
             android:exported="false" />
         <activity

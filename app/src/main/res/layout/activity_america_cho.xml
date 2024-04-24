@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chocolate">
+    tools:context=".America_cho">
 
     <FrameLayout
         android:id="@+id/frameLayout7"
@@ -64,7 +64,7 @@
                         android:id="@+id/titleTextView1"
                         android:layout_width="222dp"
                         android:layout_height="126dp"
-                        android:text="Trufas de Chocolate Negro"
+                        android:text="Fresas Cubiertas de Chocolate"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -73,7 +73,7 @@
                         android:id="@+id/paragraphTextView1"
                         android:layout_width="228dp"
                         android:layout_height="203dp"
-                        android:text="Ingredientes: 200g de chocolate negro (mínimo 70% de cacao), 100ml de crema para batir, 30g de mantequilla sin sal, Cacao en polvo o fideos de chocolate para decorar"
+                        android:text="Ingredientes: Fresas frescas, chocolate para fundir (blanco, negro o con leche), y toppings opcionales como nueces picadas, chispas de colores, o coco rallado."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -106,7 +106,7 @@
                         android:id="@+id/titleTextView2"
                         android:layout_width="218dp"
                         android:layout_height="153dp"
-                        android:text="Corazones de Chocolate Blanco Rellenos de Frambuesa"
+                        android:text="Chocolate Caliente Mexicano:"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -116,7 +116,7 @@
                         android:id="@+id/paragraphTextView2"
                         android:layout_width="217dp"
                         android:layout_height="171dp"
-                        android:text="Ingredientes: 200g de chocolate blanco, 50g de puré de frambuesa, 30g de mantequilla sin sal, Colorante rojo (opcional), Moldes de corazón"
+                        android:text="Ingredientes: Chocolate de mesa (tableta de chocolate con canela), leche, azúcar, canela en polvo, y chiles secos (opcional)."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -149,7 +149,7 @@
                         android:id="@+id/titleTextView3"
                         android:layout_width="wrap_content"
                         android:layout_height="118dp"
-                        android:text="Bombones de Chocolate con Avellanas"
+                        android:text="Brigadeiros"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -194,7 +194,7 @@
                         android:id="@+id/titleTextView4"
                         android:layout_width="237dp"
                         android:layout_height="109dp"
-                        android:text="Tableta de Chocolate con Caramelo Salado"
+                        android:text="Nanaimo Bars"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -204,9 +204,7 @@
                         android:id="@+id/paragraphTextView4"
                         android:layout_width="231dp"
                         android:layout_height="175dp"
-                        android:text="Ingredientes: 300g de chocolate semiamargo,
-                         150g de azúcar, 100ml de crema para batir,
-                         50g de mantequilla con sal, Sal marina gruesa"
+                        android:text="Ingredientes: Galletas trituradas, mantequilla, coco rallado, chocolate para fundir, nueces picadas, crema pastelera, y azúcar glasé."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -232,5 +230,4 @@
             android:layout_height="match_parent"
             android:text="TextView" />
     </FrameLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

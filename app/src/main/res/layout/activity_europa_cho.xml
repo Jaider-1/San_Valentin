@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chocolate">
+    tools:context=".Europa_cho">
 
     <FrameLayout
         android:id="@+id/frameLayout7"
@@ -64,7 +64,7 @@
                         android:id="@+id/titleTextView1"
                         android:layout_width="222dp"
                         android:layout_height="126dp"
-                        android:text="Trufas de Chocolate Negro"
+                        android:text="Trufas de Chocolate Suizas"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -73,7 +73,7 @@
                         android:id="@+id/paragraphTextView1"
                         android:layout_width="228dp"
                         android:layout_height="203dp"
-                        android:text="Ingredientes: 200g de chocolate negro (mínimo 70% de cacao), 100ml de crema para batir, 30g de mantequilla sin sal, Cacao en polvo o fideos de chocolate para decorar"
+                        android:text="Ingredientes: Chocolate negro suizo, crema para batir, mantequilla, y cacao en polvo o azúcar glasé para decora"
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -81,7 +81,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="337dp"
+                android:layout_height="282dp"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -105,8 +105,8 @@
                     <TextView
                         android:id="@+id/titleTextView2"
                         android:layout_width="218dp"
-                        android:layout_height="153dp"
-                        android:text="Corazones de Chocolate Blanco Rellenos de Frambuesa"
+                        android:layout_height="63dp"
+                        android:text="Pralinés Belgas"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -116,7 +116,7 @@
                         android:id="@+id/paragraphTextView2"
                         android:layout_width="217dp"
                         android:layout_height="171dp"
-                        android:text="Ingredientes: 200g de chocolate blanco, 50g de puré de frambuesa, 30g de mantequilla sin sal, Colorante rojo (opcional), Moldes de corazón"
+                        android:text="Ingredientes: Chocolate belga (blanco, negro o con leche), y rellenos diversos como praliné, trufa, frutos secos, y licores"
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -124,7 +124,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="327dp"
+                android:layout_height="253dp"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -148,8 +148,8 @@
                     <TextView
                         android:id="@+id/titleTextView3"
                         android:layout_width="wrap_content"
-                        android:layout_height="118dp"
-                        android:text="Bombones de Chocolate con Avellanas"
+                        android:layout_height="69dp"
+                        android:text="Tiramisú"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -159,9 +159,7 @@
                         android:id="@+id/paragraphTextView3"
                         android:layout_width="227dp"
                         android:layout_height="wrap_content"
-                        android:text="Ingredientes: 200g de chocolate con leche,
-                         50g de avellanas tostadas y trituradas, 30g de mantequilla sin sal,
-                         50ml de crema para batir, Avellanas enteras para decorar"
+                        android:text="Ingredientes: Bizcochos de soletilla, café, mascarpone, huevos, cacao en polvo, y licor de café (opcional)."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -194,7 +192,7 @@
                         android:id="@+id/titleTextView4"
                         android:layout_width="237dp"
                         android:layout_height="109dp"
-                        android:text="Tableta de Chocolate con Caramelo Salado"
+                        android:text="Fondue de Chocolate"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -204,9 +202,7 @@
                         android:id="@+id/paragraphTextView4"
                         android:layout_width="231dp"
                         android:layout_height="175dp"
-                        android:text="Ingredientes: 300g de chocolate semiamargo,
-                         150g de azúcar, 100ml de crema para batir,
-                         50g de mantequilla con sal, Sal marina gruesa"
+                        android:text="Ingredientes: Chocolate para fundir (generalmente negro), frutas frescas (fresas, plátanos, uvas), malvaviscos, y galletas."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -232,5 +228,4 @@
             android:layout_height="match_parent"
             android:text="TextView" />
     </FrameLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
