@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chocolate">
+    tools:context=".Asia_cho">
 
     <FrameLayout
         android:id="@+id/frameLayout7"
@@ -64,7 +64,7 @@
                         android:id="@+id/titleTextView1"
                         android:layout_width="222dp"
                         android:layout_height="126dp"
-                        android:text="Trufas de Chocolate Negro"
+                        android:text="Chocolate Blanco Matcha"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -73,7 +73,7 @@
                         android:id="@+id/paragraphTextView1"
                         android:layout_width="228dp"
                         android:layout_height="203dp"
-                        android:text="Ingredientes: 200g de chocolate negro (mínimo 70% de cacao), 100ml de crema para batir, 30g de mantequilla sin sal, Cacao en polvo o fideos de chocolate para decorar"
+                        android:text="Ingredientes: Chocolate blanco, polvo de matcha (té verde en polvo), y leche condensada."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -81,7 +81,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="337dp"
+                android:layout_height="291dp"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -105,8 +105,8 @@
                     <TextView
                         android:id="@+id/titleTextView2"
                         android:layout_width="218dp"
-                        android:layout_height="153dp"
-                        android:text="Corazones de Chocolate Blanco Rellenos de Frambuesa"
+                        android:layout_height="58dp"
+                        android:text="Choco Pie"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -115,8 +115,8 @@
                     <TextView
                         android:id="@+id/paragraphTextView2"
                         android:layout_width="217dp"
-                        android:layout_height="171dp"
-                        android:text="Ingredientes: 200g de chocolate blanco, 50g de puré de frambuesa, 30g de mantequilla sin sal, Colorante rojo (opcional), Moldes de corazón"
+                        android:layout_height="196dp"
+                        android:text="Ingredientes: Galletas redondas, malvaviscos, chocolate para fundir, y nueces o cacahuetes picados."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -124,7 +124,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="327dp"
+                android:layout_height="239dp"
                 android:orientation="horizontal">
 
                 <ImageButton
@@ -148,8 +148,8 @@
                     <TextView
                         android:id="@+id/titleTextView3"
                         android:layout_width="wrap_content"
-                        android:layout_height="118dp"
-                        android:text="Bombones de Chocolate con Avellanas"
+                        android:layout_height="73dp"
+                        android:text="Barfi de Chocolate"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -159,9 +159,7 @@
                         android:id="@+id/paragraphTextView3"
                         android:layout_width="227dp"
                         android:layout_height="wrap_content"
-                        android:text="Ingredientes: 200g de chocolate con leche,
-                         50g de avellanas tostadas y trituradas, 30g de mantequilla sin sal,
-                         50ml de crema para batir, Avellanas enteras para decorar"
+                        android:text="Ingredientes:Leche en polvo, azúcar, mantequilla clarificada (ghee), y cacao en polvo."
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -194,7 +192,7 @@
                         android:id="@+id/titleTextView4"
                         android:layout_width="237dp"
                         android:layout_height="109dp"
-                        android:text="Tableta de Chocolate con Caramelo Salado"
+                        android:text="Mooncakes de Chocolate"
                         android:textColor="#030610"
                         android:textSize="30dp"
                         android:textStyle="bold" />
@@ -204,9 +202,7 @@
                         android:id="@+id/paragraphTextView4"
                         android:layout_width="231dp"
                         android:layout_height="175dp"
-                        android:text="Ingredientes: 300g de chocolate semiamargo,
-                         150g de azúcar, 100ml de crema para batir,
-                         50g de mantequilla con sal, Sal marina gruesa"
+                        android:text="Ingredientes: Harina, pasta de judía roja, chocolate negro, y semillas de loto"
                         android:textColor="#060917"
                         android:textSize="20dp" />
                 </LinearLayout>
@@ -232,5 +228,4 @@
             android:layout_height="match_parent"
             android:text="TextView" />
     </FrameLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
