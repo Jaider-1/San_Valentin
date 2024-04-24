@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#686464"
+    android:background="@mipmap/fonfoa"
     tools:context=".Asia">
 
     <TextView
@@ -20,16 +20,17 @@
         android:text="Camelia: Originaria de Asia Oriental, la camelia es conocida por sus flores grandes y vistosas. Viene en una variedad de colores y es popular en jardinería ornamental."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
+        android:textStyle="bold"
         android:typeface="serif"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="540dp" />
+        tools:layout_editor_absoluteY="521dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="225dp"
-        android:layout_height="145dp"
+        android:layout_width="238dp"
+        android:layout_height="134dp"
         android:layout_gravity="start|top"
         android:paddingStart="20dp"
         android:paddingTop="10dp"
@@ -38,6 +39,7 @@
         android:text="Jazmín: Ampliamente cultivado en Asia, el jazmín es conocido por su fragancia dulce y sus flores blancas o amarillas. Se utiliza en la producción de perfumes y tés aromáticos."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
+        android:textStyle="bold"
         android:typeface="serif"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -56,11 +58,12 @@
         android:text="Loto: Una flor sagrada en muchas culturas asiáticas, especialmente en China e India. El loto es un símbolo de pureza espiritual y crecimiento espiritual."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
+        android:textStyle="bold"
         android:typeface="serif"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="198dp" />
+        tools:layout_editor_absoluteY="182dp" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -70,17 +73,17 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:srcCompat="@mipmap/camelia"
-        tools:layout_editor_absoluteY="537dp" />
+        tools:layout_editor_absoluteY="521dp" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="162dp"
-        android:layout_height="123dp"
+        android:layout_width="166dp"
+        android:layout_height="134dp"
         app:layout_constraintEnd_toStartOf="@+id/textView3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@mipmap/jazmin"
-        tools:layout_editor_absoluteY="358dp" />
+        tools:layout_editor_absoluteY="346dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -90,7 +93,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:srcCompat="@mipmap/loto"
-        tools:layout_editor_absoluteY="198dp" />
+        tools:layout_editor_absoluteY="182dp" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -100,7 +103,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@mipmap/sakura"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -111,8 +114,8 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="220dp"
-        android:layout_height="150dp"
+        android:layout_width="237dp"
+        android:layout_height="135dp"
         android:layout_gravity="start|top"
         android:paddingStart="20dp"
         android:paddingTop="10dp"
@@ -121,10 +124,21 @@
         android:text="Cerezo en Flor (Sakura): Esta flor es icónica en Asia, especialmente en Japón. La floración de los cerezos es un evento muy celebrado y simboliza la belleza efímera de la naturaleza."
         android:textColor="#FFFFFF"
         android:textSize="14sp"
+        android:textStyle="bold"
         android:typeface="serif"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView1"
         tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="681dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
