@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/fondoc"
     tools:context=".Europa">
 
     <ImageView
@@ -22,6 +23,7 @@
         android:layout_width="258dp"
         android:layout_height="106dp"
         android:text="Rosa: Las rosas son quizás las flores más emblemáticas de Europa, cultivadas y apreciadas por su belleza y fragancia en todo el continente."
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,6 +46,7 @@
         android:layout_width="270dp"
         android:layout_height="128dp"
         android:text="Lavanda: Esta fragante planta morada es nativa de Europa y es ampliamente cultivada en la región mediterránea. Es apreciada por su aroma y se utiliza en aromaterapia y cocina."
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView9"
@@ -66,6 +69,7 @@
         android:layout_width="250dp"
         android:layout_height="131dp"
         android:text="Margarita: Una flor silvestre común en Europa, la margarita es conocida por su apariencia simple y encantadora. Es popular en jardinería y se utiliza en adornos florales."
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,14 +90,16 @@
     <TextView
         android:id="@+id/tv16"
         android:layout_width="259dp"
-        android:layout_height="91dp"
+        android:layout_height="111dp"
+        android:layout_margin=""
         android:text="Girasol: Aunque originario de América, el girasol se ha extendido por Europa y se ha convertido en un símbolo popular en la región, representando la vitalidad y la energía del sol."
+        android:textColor="#050505"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView11"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="550dp" />
+        tools:layout_editor_absoluteY="524dp" />
 
     <Button
         android:id="@+id/button4"
