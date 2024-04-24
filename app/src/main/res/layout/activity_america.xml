@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fonfob"
+    tools:context=".America">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="205dp"
+        android:layout_height="138dp"
+        app:srcCompat="@mipmap/rosam"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="205dp"
+        android:layout_height="117dp"
+        android:text="Rosa de Montaña (Rhododendron): Esta flor es nativa de América del Norte y América del Sur. Se encuentra en una variedad de colores y es conocida por su belleza y resistencia."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="197dp"
+        android:layout_height="130dp"
+        app:srcCompat="@mipmap/hibisco"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="235dp"
+        android:layout_height="134dp"
+        android:text="Hibisco: Esta flor tropical es común en América, especialmente en regiones cálidas. Viene en una variedad de colores vibrantes y se utiliza a menudo en jardinería y paisajismo."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/orquidea"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="245dp"
+        android:layout_height="139dp"
+        android:text="Orquídea Catleya: Originaria de América del Sur y Central, las orquídeas Catleya son conocidas por sus flores grandes y coloridas, que son populares en arreglos florales y decoración."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="194dp"
+        android:layout_height="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv11"
+        app:srcCompat="@mipmap/amapola"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="209dp"
+        android:layout_height="150dp"
+        android:text="Amapola de California: Esta flor es emblemática de California en América del Norte. Es conocida por sus brillantes pétalos anaranjados y su aparición en paisajes naturales y jardines."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="663dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

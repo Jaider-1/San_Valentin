@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Europa">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/rosa"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="258dp"
+        android:layout_height="106dp"
+        android:text="Rosa: Las rosas son quizás las flores más emblemáticas de Europa, cultivadas y apreciadas por su belleza y fragancia en todo el continente."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv14"
+        app:srcCompat="@mipmap/lavanda"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/tv14"
+        android:layout_width="270dp"
+        android:layout_height="128dp"
+        android:text="Lavanda: Esta fragante planta morada es nativa de Europa y es ampliamente cultivada en la región mediterránea. Es apreciada por su aroma y se utiliza en aromaterapia y cocina."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="139dp"
+        android:layout_height="135dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/margarita"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/tv15"
+        android:layout_width="250dp"
+        android:layout_height="131dp"
+        android:text="Margarita: Una flor silvestre común en Europa, la margarita es conocida por su apariencia simple y encantadora. Es popular en jardinería y se utiliza en adornos florales."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv16"
+        app:srcCompat="@mipmap/girsol"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <TextView
+        android:id="@+id/tv16"
+        android:layout_width="259dp"
+        android:layout_height="91dp"
+        android:text="Girasol: Aunque originario de América, el girasol se ha extendido por Europa y se ha convertido en un símbolo popular en la región, representando la vitalidad y la energía del sol."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="664dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
